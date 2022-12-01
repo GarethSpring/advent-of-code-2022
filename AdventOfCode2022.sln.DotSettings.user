@@ -1,0 +1,20 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0e829110_002D6c05_002D4762_002Db205_002Dacd84813ebc6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Day01Part1 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D824657B-62B5-4DDD-9E0A-A72B17AC2B7F::net6.0::AdventOfCode2022.Tests.Day01Tests.Day01Part1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::D824657B-62B5-4DDD-9E0A-A72B17AC2B7F::net6.0::AdventOfCode2022.Tests.Day01Tests.Day01Part2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=83529952_002Dd23b_002D4d9e_002Dbcf5_002D23bfde0bceb9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Day01Part2 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;ProjectFolder&gt;D824657B-62B5-4DDD-9E0A-A72B17AC2B7F/d:Tests&lt;/ProjectFolder&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9a9b4f71_002D4153_002D44b2_002Dae3a_002D761bc8062758/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Day01Part2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D824657B-62B5-4DDD-9E0A-A72B17AC2B7F::net6.0::AdventOfCode2022.Tests.Day01Tests.Day01Part2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ccfcb831_002D2d2c_002D40ea_002D8e1d_002D606ab6824889/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Day01Part1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D824657B-62B5-4DDD-9E0A-A72B17AC2B7F::net6.0::AdventOfCode2022.Tests.Day01Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
