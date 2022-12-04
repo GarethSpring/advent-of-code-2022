@@ -24,14 +24,7 @@
                 }
             }
 
-            int result = 0;
-            
-            foreach (char c in matches)
-            {
-                result += Priorities.IndexOf(c) + 1;
-            }
-            
-            return result;
+            return matches.Sum(c => Priorities.IndexOf(c) + 1);
         }
 
         public int Day03Part02(List<RuckSack> input)
@@ -41,25 +34,15 @@
             for (int i = 0; i < input.Count / 3; i++)
             {
                 var group = input.Skip(i * 3).Take(3);
-                
-                foreach (char c in Priorities)
+
+                foreach (var c in Priorities.Where(c => group.All(rs => rs.CompartmentA.Contains(c) || rs.CompartmentB.Contains(c))))
                 {
-                    if (group.All(rs => rs.CompartmentA.Contains(c) || rs.CompartmentB.Contains(c)))
-                    {
-                        groupMatches.Add(c);
-                        break;
-                    }
+                    groupMatches.Add(c);
+                    break;
                 }
             }
-            
-            int result = 0;
-            
-            foreach (char c in groupMatches)
-            {
-                result += Priorities.IndexOf(c) + 1;
-            }
-            
-            return result;
+
+            return groupMatches.Sum(c => Priorities.IndexOf(c) + 1);
         }
         
 
