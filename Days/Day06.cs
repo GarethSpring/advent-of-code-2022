@@ -2,30 +2,27 @@
 {
     public class Day06
     {
-        private int markerLength = 0;
+        private int _markerLength;
         
         public int Day06Logic(string input, int markerLength)
         {
-            this.markerLength = markerLength;
+            _markerLength = markerLength;
             var marker = new List<char>();
-            var result = 0;
 
             for (int i = 0; i < input.Length; i++)
             {
                 if (CheckMarker(marker, input[i]))
                 {
-                    result = i + 1;
-                    break;
+                    return i + 1;
                 }
-                
             }
-            
-            return result;
+
+            return -1;
         }
 
         private bool CheckMarker(List<char> marker, char c)
         {
-            if (marker.Count < this.markerLength)
+            if (marker.Count < _markerLength)
             {
                 marker.Add(c);
                 return false;
@@ -34,8 +31,7 @@
             marker.RemoveAt(0);
             marker.Add(c);
             
-            return marker.Distinct().Count() == this.markerLength;
+            return marker.Distinct().Count() == _markerLength;
         }
-        
     }
 }
