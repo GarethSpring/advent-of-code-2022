@@ -1,8 +1,18 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0d0381f4_002Dcb57_002D4ec1_002Da69e_002D6b975f8d701f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Day08Part1Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D824657B-62B5-4DDD-9E0A-A72B17AC2B7F::net6.0::AdventOfCode2022.Tests.Day08Tests.Day08Part1Test&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0e829110_002D6c05_002D4762_002Db205_002Dacd84813ebc6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Day01Part1 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::D824657B-62B5-4DDD-9E0A-A72B17AC2B7F::net6.0::AdventOfCode2022.Tests.Day01Tests.Day01Part1&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::D824657B-62B5-4DDD-9E0A-A72B17AC2B7F::net6.0::AdventOfCode2022.Tests.Day01Tests.Day01Part2&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=20ea1f85_002D5eeb_002D4714_002D9b5a_002D770bd9aba7fc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Day08Part1Test #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::D824657B-62B5-4DDD-9E0A-A72B17AC2B7F::net6.0::AdventOfCode2022.Tests.Day08Tests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=83529952_002Dd23b_002D4d9e_002Dbcf5_002D23bfde0bceb9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Day01Part2 #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
